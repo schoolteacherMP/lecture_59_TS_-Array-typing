@@ -67,31 +67,19 @@ formatPrice(); // '$0.00'
 formatPrice(null); // '$0.00'  
 
 ## Задача 8.   
-### Литералы (Literal Types)  
-Реализуйте функцию makeTurn(), принимающую строку left или right и перемещающую черепашку вперед-назад по одномерной карте длиной пять.   
-Если ход невозможен, должно выброситься исключение.  
-const { makeTurn, state } = startGame();  
-console.log(state); // ['turtle', null, null, null, null]  
-makeTurn('left') // ERROR  
-makeTurn('right');  
-makeTurn('right');  
-console.log(state); // [null, null, 'turtle', null, null]  
-
-
-## Задача 9.   
 ### Пересечение (Intersections Types)   
 
-## Задача 10.   
+## Задача 9.   
 ### Присвоение значения  
 
 
-## Задача 11.   
+## Задача 10.   
 ### Иерархия типов  
 
-## Задача 12.   
+## Задача 11.   
 ### Структурная типизация  
 
-## Задача 13.   
+## Задача 12.   
 ### Ковариантность и контравариантность  
 
 
